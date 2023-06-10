@@ -1,0 +1,28 @@
+{
+  "name": "petstore-apitest",
+  "version": "1.0.0",
+  "description": "mocha chai petstore",
+  "main": "index.js",
+  "scripts": {
+    "test get": "mocha filename.js",
+    "test post": "mocha filename.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maulanadw/petstore-apitest.git"
+  },
+  "author": "maulanadw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maulanadw/petstore-apitest/issues"
+  },
+  "homepage": "https://github.com/maulanadw/petstore-apitest#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5"
+  }
+}
