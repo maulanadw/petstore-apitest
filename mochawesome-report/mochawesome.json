@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-15T03:46:06.506Z",
+    "end": "2023-06-15T03:46:08.068Z",
+    "duration": 1562,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dc805b20-9ffc-4184-abec-6f44a76d0bad",
+      "title": "",
+      "fullFile": "D:\\projects\\petstore-apitest\\test\\api\\chaiAssert.js",
+      "file": "\\test\\api\\chaiAssert.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5fd50aa5-c47f-432a-ada3-13e039157d26",
+          "title": "Post Request Example",
+          "fullFile": "D:\\projects\\petstore-apitest\\test\\api\\chaiAssert.js",
+          "file": "\\test\\api\\chaiAssert.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "response status equal to 200",
+              "fullTitle": "Post Request Example response status equal to 200",
+              "timedOut": false,
+              "duration": 1525,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Check response status == OK\nexpect((await response).status).to.equal(200)",
+              "err": {},
+              "uuid": "dbd1ce78-9087-47e8-9d52-a5c7e50fd096",
+              "parentUUID": "5fd50aa5-c47f-432a-ada3-13e039157d26",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "response body to haveOwnProperty",
+              "fullTitle": "Post Request Example response body to haveOwnProperty",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Verify that the response body contains the 'message' property\nexpect((await response).body).to.haveOwnProperty('message')",
+              "err": {},
+              "uuid": "32d8a5ae-2227-430b-893f-42b3c3614429",
+              "parentUUID": "5fd50aa5-c47f-432a-ada3-13e039157d26",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dbd1ce78-9087-47e8-9d52-a5c7e50fd096",
+            "32d8a5ae-2227-430b-893f-42b3c3614429"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1527,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
